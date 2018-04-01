@@ -16,6 +16,21 @@
     <Filter Include="Camera">
       <UniqueIdentifier>{a377afdb-5b7e-45b0-bc93-1474adf3c031}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{f987dcb2-89e0-4902-95ea-cca83bdac1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lights">
+      <UniqueIdentifier>{d103938c-67ed-4a2e-9b05-26f2273adfde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{52049c3f-698c-4a58-ae24-9fe3af6cf018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{35832cfb-9fa7-477b-a633-f05ead7c59c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{ae7e24a5-39ce-4879-8fc6-5f1cb0e6cf93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,10 +39,54 @@
     <ClCompile Include="Camera.cpp">
       <Filter>Camera</Filter>
     </ClCompile>
+    <ClCompile Include="FullScreenQuad.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h">
       <Filter>Camera</Filter>
     </ClInclude>
+    <ClInclude Include="FullScreenQuad.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\quadShader.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\quadShader.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\tiledShading.glsl">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
